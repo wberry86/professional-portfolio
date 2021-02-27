@@ -130,3 +130,25 @@ main {
     display:block;
     z-index:999;
 }
+
+article {
+    border: solid crimson;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  height: 400px;
+  padding: 50px;
+  flex-basis: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-image: url("./Images/wood-floor.jpg");
+  background-size:cover;
+}
+
+h2 {
+    color: cornsilk;
+    font-size: 26px;
+}
+
+
