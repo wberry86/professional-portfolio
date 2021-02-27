@@ -1,0 +1,57 @@
+div {
+  border: 2px ;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 5px;
+}
+
+header {
+  flex: content;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  height: 400px;
+  background-image: url("./Images/wood-floor.jpg");
+}
+
+.about-me {
+  float: left;
+  margin-right: 25px;
+  height: 100%;
+  width: 60%;
+  flex: content;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.name {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: cornsilk;
+  margin-top: 1px;
+  
+}
+
+li {
+  color: cornsilk;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+  
+}
+
+a {
+  color: cornsilk;
+  font-size: 50px;
+  text-decoration: none;
+}
+
+.profile-pic {
+  float: right;
+  background-image: url("./Images/profilepic.jpg");
+  background-size: auto;
+  background-position: top;
+  height: 90%;
+  width: 30%;
+}
