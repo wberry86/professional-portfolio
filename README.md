@@ -16,3 +16,16 @@ __Languages Used__
 * HTML
 * CSS
 
+
+__Screenshot of Webpage__
+
+![Screenshot1](https://github.com/wberry86/professional-portfolio/blob/main/Develop/assets/images/portfolio-capture.png)
+
+
+
+
+<br/>
+
+__Example of HTML code__
+
+![Screenshot2](https://github.com/wberry86/professional-portfolio/blob/main/Develop/assets/images/portfolio-code-capture.png)
