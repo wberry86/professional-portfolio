@@ -28,4 +28,4 @@ __Screenshot of Webpage__
 
 __Example of HTML code__
 
-![Screenshot2](https://github.com/wberry86/professional-portfolio/images/portfolio-code-capture.png)
+![Screenshot2](https://github.com/wberry86/professional-portfolio/blob/main/Images/portfolio-code-capture.PNG)
