@@ -19,7 +19,7 @@ __Languages Used__
 
 __Screenshot of Webpage__
 
-![Screenshot1](https://github.com/wberry86/professional-portfolio/blob/main/Develop/assets/images/portfolio-capture.png)
+![Screenshot1](https://github.com/wberry86/professional-portfolio/images/portfolio-capture.png)
 
 
 
@@ -28,4 +28,4 @@ __Screenshot of Webpage__
 
 __Example of HTML code__
 
-![Screenshot2](https://github.com/wberry86/professional-portfolio/blob/main/Develop/assets/images/portfolio-code-capture.png)
+![Screenshot2](https://github.com/wberry86/professional-portfolio/images/portfolio-code-capture.png)
