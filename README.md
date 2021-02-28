@@ -18,7 +18,7 @@ __Languages Used__
 
 <br/>
 <br/>
-[Link to portfolio](https://wberry86.github.io/professional-portfolio/)
+[Link-to-portfolio](https://wberry86.github.io/professional-portfolio/)
 
 
 
