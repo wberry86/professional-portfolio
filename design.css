@@ -7,6 +7,8 @@ div {
 }
 
 header {
+  border: 20px solid rgba(179, 41, 41, 0.685);
+  border-radius: 10px;
   flex: content;
   flex-direction: row;
   justify-content: space-between;
@@ -46,6 +48,7 @@ a {
 }
 
 .profile-pic {
+  border: 5px solid rgb(247, 241, 241);
   float: right;
   background-image: url("./Images/profilepic.jpg");
   background-size: auto;
@@ -56,7 +59,7 @@ a {
 }
 
 main {
-  border: none;
+  border: 20px solid rgba(0, 128, 0, 0.726);
   border-radius: 10px;
   margin-top: 40px;
   margin-bottom: 15px;
@@ -68,10 +71,12 @@ main {
   justify-content: space-around;
   background-image: url("./Images/grass.jpg");
   background-size: auto;
+  background-position: bottom;
 }
 
 .container-1 {
-  border: none;
+  border: 20px solid white;
+  border-radius: 10px;
   flex-grow: 1;
   height: 300px;
   padding: 35px;
@@ -84,14 +89,15 @@ main {
   position: relative;
   top: -25px;
   left: -35px;
-  width: 500px;
+  width: 300px;
   height: auto;
   display: block;
   z-index: 999;
 }
 
 .container-2 {
-  border: none;
+  border: 20px solid white;
+  border-radius: 10px;
   flex-grow: 1;
   height: 300px;
   padding: 35px;
@@ -104,14 +110,15 @@ main {
   position: relative;
   top: -25px;
   left: -35px;
-  width: 500px;
+  width: 300px;
   height: auto;
   display: block;
   z-index: 999;
 }
 
 .container-3 {
-  border: none;
+  border: 20px solid white;
+  border-radius: 10px;
   flex-grow: 1;
   height: 300px;
   padding: 35px;
@@ -124,13 +131,14 @@ main {
   position: relative;
   top: -25px;
   left: -35px;
-  width: 500px;
+  width: 300px;
   height: auto;
   display: block;
   z-index: 999;
 }
 
 article {
+  border: 20px solid rgba(179, 41, 41, 0.685);
   border-radius: 10px;
   margin-top: 40px;
   margin-bottom: 10px;
@@ -146,18 +154,19 @@ article {
 
 .project-description {
   display: flex;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h2 {
   color: rgb(15, 15, 14);
   font-size: 26px;
-
   flex-grow: 1;
 }
 
 h4 {
   color: snow;
   font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .contact-info {
@@ -169,17 +178,33 @@ h4 {
   font-size: 20px;
 }
 
+span {
+  font-size: 50px;
+}
+
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 
 @media screen and (max-width: 980px) {
   article {
     height: 1200px;
   }
+
+  .profile-pic {
+    border-radius: 10px;
+    width: 90%;
+    height: 80%;
+    border: 20px solid #390e01de;
+    float: right;
+  }
 }
 
 @media screen and (max-width: 768px) {
   article {
-    height: 1300px;
+    height: 1700px;
+  }
+
+  .contact-info {
+    text-align: center;
   }
 }
 
@@ -201,8 +226,12 @@ h4 {
   }
 
   .profile-pic {
-    width: 120%;
+    border-radius: 10px;
+    width: 90%;
     height: 80%;
+    border: 20px solid #390e01de;
+    float: right;
+    margin-right: 0px;
   }
 
   article {
@@ -242,5 +271,10 @@ h4 {
   .email {
     color: blue;
     font-size: 20px;
+  }
+
+  .contact-info {
+    text-align: center;
+    margin-left: 25%;
   }
 }
