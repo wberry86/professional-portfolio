@@ -17,7 +17,6 @@ __Languages Used__
 * CSS
 
 <br/>
-<br/>
 
 [Link to Portfolio](https://wberry86.github.io/professional-portfolio/)
 
