@@ -19,7 +19,7 @@ __Languages Used__
 
 __Screenshot of Webpage__
 
-![Screenshot1](https://github.com/wberry86/professional-portfolio/images/portfolio-capture.png)
+![Screenshot1](https://github.com/wberry86/professional-portfolio/blob/main/Images/portfolio-capture.PNG)
 
 
 
