@@ -158,6 +158,27 @@ main {
   z-index: 999;
 }
 
+.container-5 {
+  border: 20px solid white;
+  border-radius: 10px;
+  flex-grow: 1;
+  height: 300px;
+  padding: 35px;
+  background-image: url("./Images/devtrax1.PNG");
+  background-size: cover;
+  margin: 10px;
+}
+
+.container-5:hover {
+  position: relative;
+  top: -25px;
+  left: -35px;
+  width: 300px;
+  height: auto;
+  display: block;
+  z-index: 999;
+}
+
 article {
   border: 20px solid rgba(179, 41, 41, 0.685);
   border-radius: 10px;
